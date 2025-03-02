@@ -1,0 +1,23 @@
+{
+  "name": "bookstore-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.5.1",
+    "axios": "^1.8.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "@symfony/webpack-encore": "^4.7.0",
+    "webpack-notifier": "^1.15.0"
+  }
+}
